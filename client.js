@@ -1,6 +1,6 @@
 //const { name } = require("ejs");
 
-const socket=io('https://mzelo.com/hemabackend');
+const socket=io('https://stream.mzelo.com');
 const form=document.getElementById('send-container');
 const messageInput=document.getElementById('messageInp');
 const messageContainer=document.querySelector('.main');
